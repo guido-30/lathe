@@ -410,6 +410,14 @@
     [
       "83376baa-8092-4242-8be4-15446c519f68",
       "Principale"
+    ],
+    [
+      "b377c479-6885-4e06-94e4-eae05cd896c3",
+      "CPU"
+    ],
+    [
+      "dada73ce-b718-4cdf-b8e0-7dd00a744edd",
+      "Connessione"
     ]
   ],
   "text_variables": {}
