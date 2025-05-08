@@ -417,7 +417,11 @@
     ],
     [
       "dada73ce-b718-4cdf-b8e0-7dd00a744edd",
-      "Connessione"
+      "Connection_InverterSpindle"
+    ],
+    [
+      "fab27795-e202-485f-98c0-be95fd915639",
+      "IO_connection"
     ]
   ],
   "text_variables": {}

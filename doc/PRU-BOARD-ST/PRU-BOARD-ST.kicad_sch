@@ -66,7 +66,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "dada73ce-b718-4cdf-b8e0-7dd00a744edd")
-		(property "Sheetname" "Connessione"
+		(property "Sheetname" "Connection_InverterSpindle"
 			(at 102.87 51.3584 0)
 			(effects
 				(font
@@ -98,6 +98,48 @@
 			(project "PRU-BOARD-ST"
 				(path "/83376baa-8092-4242-8be4-15446c519f68"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 50.8)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fab27795-e202-485f-98c0-be95fd915639")
+		(property "Sheetname" "IO_connection"
+			(at 156.21 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO_connection.kicad_sch"
+			(at 156.21 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PRU-BOARD-ST"
+				(path "/83376baa-8092-4242-8be4-15446c519f68"
+					(page "4")
 				)
 			)
 		)
