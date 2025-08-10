@@ -1,0 +1,5 @@
+gruppo 8 
+page 11 - value 00 
+
+page 25 analog speed  (default 500) giri/Volt -> 50
+page 1 analog enable (default disable)

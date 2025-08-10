@@ -1,0 +1,242 @@
+(kicad_sch
+	(version 20240812)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "2a0a3247-0798-43ed-b890-af732611b942")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 82.55 63.5)
+		(end 196.85 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0f6fcb2-1d9f-48df-bf9a-1678842ee434)
+	)
+	(rectangle
+		(start 210.82 62.23)
+		(end 254 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3122098-9199-4f1c-bb59-326e706d91c5)
+	)
+	(text "ETH"
+		(exclude_from_sim no)
+		(at 221.742 40.894 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "0c9508ba-cec3-4ad9-a3ed-a57b99d27606")
+	)
+	(text "CONTROL AXIS X"
+		(exclude_from_sim no)
+		(at 91.694 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1afbbc83-48a1-4f0a-8051-d56ec5b57ebe")
+	)
+	(text "CONTROL AXIS Y"
+		(exclude_from_sim no)
+		(at 91.694 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "216617a4-e971-4baf-998b-f69fd0386064")
+	)
+	(text "power 5Vdc"
+		(exclude_from_sim no)
+		(at 226.568 22.86 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "25153e73-79af-44b6-8ce8-a2a764d9ba4c")
+	)
+	(text "LED YELLOW"
+		(exclude_from_sim no)
+		(at 142.24 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4839b76b-f2fd-4c4c-9e7d-5829d009e214")
+	)
+	(text "LED BLUE"
+		(exclude_from_sim no)
+		(at 156.718 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53b857e4-a706-4522-a0b2-b83a9f974833")
+	)
+	(text "LED RED"
+		(exclude_from_sim no)
+		(at 128.016 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6292cef2-baff-49df-802d-6cb2b8cb647f")
+	)
+	(text "SPI\n"
+		(exclude_from_sim no)
+		(at 204.724 88.646 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "9f31631a-21b2-451e-ac71-fa524d115b9d")
+	)
+	(text "CONTROL AXIS Z"
+		(exclude_from_sim no)
+		(at 91.694 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac534f9a-497c-4f41-b240-69aa2928bef2")
+	)
+	(text "RPI 4"
+		(exclude_from_sim no)
+		(at 232.156 69.596 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "bb6c4ecd-4795-49d3-b6cf-ae3de06977ec")
+	)
+	(text "CONTROL SPENDLE"
+		(exclude_from_sim no)
+		(at 92.71 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6f21d65-7c14-40b0-89ca-b854a1436ed7")
+	)
+	(bus
+		(pts
+			(xy 245.11 62.23) (xy 245.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086e2d82-bcd5-4c75-8f65-b7f1e4ef3475")
+	)
+	(bus
+		(pts
+			(xy 71.12 71.12) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087524af-204b-409c-a184-d0c6922836bb")
+	)
+	(bus
+		(pts
+			(xy 210.82 91.44) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b36a01-1f76-4238-bce9-996137c0f717")
+	)
+	(bus
+		(pts
+			(xy 196.85 91.44) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376ea1ea-bf96-4d90-a161-081f4895a77f")
+	)
+	(bus
+		(pts
+			(xy 71.2576 82.55) (xy 82.6876 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657ca204-f984-4a80-9fc9-68b71047c8f0")
+	)
+	(bus
+		(pts
+			(xy 71.12 86.36) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83366c6a-ea7f-4ac9-b28c-db7fa3f030c4")
+	)
+	(bus
+		(pts
+			(xy 209.55 26.67) (xy 250.19 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebb8100-6acb-45b2-ba3f-4b62c8c46252")
+	)
+	(bus
+		(pts
+			(xy 71.12 90.17) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ca618f-aa0c-4cc9-a470-60557cefc3bb")
+	)
+	(bus
+		(pts
+			(xy 250.19 26.67) (xy 250.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86a0176-eb04-4610-8e19-0edb066f766c")
+	)
+	(bus
+		(pts
+			(xy 213.36 44.45) (xy 245.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa06625f-9bff-4495-9152-9224e022cbe9")
+	)
+)

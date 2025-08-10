@@ -1,0 +1,143 @@
+(kicad_sch
+	(version 20240812)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "d482d245-9bde-482f-a0c9-8f57ac89377e")
+	(paper "A4")
+	(title_block
+		(title "Quadro elettrico")
+	)
+	(lib_symbols)
+	(sheet
+		(at 85.09 60.96)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79dfb10c-bfb9-446e-b60d-02adc016e4fd")
+		(property "Sheetname" "SERVO"
+			(at 85.09 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo-motor.kicad_sch"
+			(at 85.09 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 60.96)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e5955c3-294c-4b63-ae7d-9a3a2d1c56ae")
+		(property "Sheetname" "CPU"
+			(at 121.92 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 121.92 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 60.96)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c231f242-7d45-48d3-852a-10fcde1d187b")
+		(property "Sheetname" "Power Suply"
+			(at 46.99 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 46.99 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
