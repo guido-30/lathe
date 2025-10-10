@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20240812)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "d482d245-9bde-482f-a0c9-8f57ac89377e")
 	(paper "A4")
 	(title_block
@@ -9,7 +9,49 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 85.09 60.96)
+		(at 133.35 25.4)
+		(size 35.56 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3aff6d39-0f0b-4908-aed9-67e32121b6ac")
+		(property "Sheetname" "panel command"
+			(at 133.35 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel.sch.kicad_sch"
+			(at 133.35 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 25.4)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +67,7 @@
 		)
 		(uuid "79dfb10c-bfb9-446e-b60d-02adc016e4fd")
 		(property "Sheetname" "SERVO"
-			(at 85.09 60.2484 0)
+			(at 60.96 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "servo-motor.kicad_sch"
-			(at 85.09 81.8646 0)
+			(at 60.96 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +93,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 60.96)
+		(at 97.79 25.4)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,7 +109,7 @@
 		)
 		(uuid "9e5955c3-294c-4b63-ae7d-9a3a2d1c56ae")
 		(property "Sheetname" "CPU"
-			(at 121.92 60.2484 0)
+			(at 97.79 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 121.92 81.8646 0)
+			(at 97.79 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +135,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 60.96)
+		(at 22.86 25.4)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -109,7 +151,7 @@
 		)
 		(uuid "c231f242-7d45-48d3-852a-10fcde1d187b")
 		(property "Sheetname" "Power Suply"
-			(at 46.99 60.2484 0)
+			(at 22.86 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 46.99 81.8646 0)
+			(at 22.86 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

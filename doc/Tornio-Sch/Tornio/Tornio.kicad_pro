@@ -215,6 +215,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
+      "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -238,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -249,7 +251,7 @@
   },
   "meta": {
     "filename": "Tornio.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -409,7 +411,7 @@
   "sheets": [
     [
       "d482d245-9bde-482f-a0c9-8f57ac89377e",
-      "Principale"
+      "Root"
     ],
     [
       "c231f242-7d45-48d3-852a-10fcde1d187b",
@@ -422,6 +424,10 @@
     [
       "9e5955c3-294c-4b63-ae7d-9a3a2d1c56ae",
       "CPU"
+    ],
+    [
+      "3aff6d39-0f0b-4908-aed9-67e32121b6ac",
+      "panel command"
     ]
   ],
   "text_variables": {}
