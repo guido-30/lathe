@@ -1,0 +1,22 @@
+INVERTER SANYO
+
+
+Ingressi ATTIVO / DISATTIVO
+
+PIN 50 +24 vCC COMUNE INPUT
+
+PIN 37 CONT1 - SERVO - ON / OFF
+
+PIN 34 CONT4 - VELOCITY (in ana) / POSITION (pul dir)
+
+PIN 21 IN ANA (+-10VCC)
+
+
+
+GRUPPO	PARAMETRO VALORE
+8	25	   500 giri / V su ingresso ANA
+8	26         400 mSec rampa accelerazione
+8	27         400 mSec rampa decelerazione
+8	45	   2000 max speed
+
+ 
