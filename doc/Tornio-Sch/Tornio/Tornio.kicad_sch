@@ -45,6 +45,48 @@
 		(instances
 			(project "Tornio"
 				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 25.4)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ed4000a-4c3b-4805-85a6-06414fd3e40f")
+		(property "Sheetname" "Rimbalzo-Segnali"
+			(at 184.15 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rimbalzo-Segnali.kicad_sch"
+			(at 184.15 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
 					(page "6")
 				)
 			)

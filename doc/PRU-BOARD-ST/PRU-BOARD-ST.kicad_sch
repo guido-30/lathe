@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20240812)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "83376baa-8092-4242-8be4-15446c519f68")
 	(paper "A4")
 	(title_block
@@ -86,13 +86,13 @@
 		)
 		(pin "prova" input
 			(at 102.87 54.61 180)
+			(uuid "e4db05ee-f5cc-4e7b-bf85-dc873b0bb1c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e4db05ee-f5cc-4e7b-bf85-dc873b0bb1c0")
 		)
 		(instances
 			(project "PRU-BOARD-ST"

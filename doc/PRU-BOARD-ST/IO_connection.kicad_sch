@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20240812)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "5f8bf830-da07-4e75-b8b4-5b0ab157e260")
 	(paper "A4")
 	(lib_symbols
@@ -261,7 +261,9 @@
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -459,7 +461,9 @@
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -715,7 +719,9 @@
 		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1029,7 +1035,9 @@
 		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1342,7 +1350,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1479,7 +1489,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1638,7 +1650,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1761,7 +1775,9 @@
 		)
 		(symbol "Device:R_Potentiometer_Trim"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2053,10 +2069,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.413 4.445) (xy -3.048 5.715) (xy -1.778 5.715) (xy -2.413 4.445)
+						(xy -2.413 4.445) (xy -2.413 2.54) (xy -4.953 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2065,10 +2081,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.413 4.445) (xy -2.413 2.54) (xy -4.953 2.54)
+						(xy -2.413 4.445) (xy -3.048 5.715) (xy -1.778 5.715) (xy -2.413 4.445)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2571,10 +2587,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2583,10 +2599,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2768,9 +2784,13 @@
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2865,9 +2885,13 @@
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3329,7 +3353,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 31.75) (xy 233.68 60.96)
+			(xy 220.98 31.75) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3536,6 +3560,16 @@
 			(type default)
 		)
 		(uuid "403c31ea-3fe5-4ac0-8035-dd91c76c14b5")
+	)
+	(wire
+		(pts
+			(xy 240.03 39.37) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40498a3d-8c07-47a9-ab8d-9b9a88504a57")
 	)
 	(wire
 		(pts
@@ -3759,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 31.75) (xy 257.81 31.75)
+			(xy 220.98 31.75) (xy 257.81 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4409,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 233.68 60.96)
+			(xy 190.5 60.96) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4829,7 +4863,6 @@
 	)
 	(label "EN-Z"
 		(at 161.29 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4840,7 +4873,6 @@
 	)
 	(label "GND"
 		(at 161.29 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,7 +4883,6 @@
 	)
 	(label "DIR-A"
 		(at 265.43 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4860,9 +4891,8 @@
 		)
 		(uuid "2c205ee5-e2b3-4b2e-acd6-6252be4e9495")
 	)
-	(label "SPINDLE"
+	(label "SPINDLE ANA CPU"
 		(at 265.43 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4873,7 +4903,6 @@
 	)
 	(label "PUL-X"
 		(at 161.29 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4883,8 +4912,7 @@
 		(uuid "54113436-874e-4f74-9ded-5894ada623c2")
 	)
 	(label "GND"
-		(at 265.43 44.45 0)
-		(fields_autoplaced yes)
+		(at 265.43 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +4923,6 @@
 	)
 	(label "DIR-X"
 		(at 161.29 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4906,7 +4933,6 @@
 	)
 	(label "PUL-A"
 		(at 265.43 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4917,7 +4943,6 @@
 	)
 	(label "DIR-Z"
 		(at 161.29 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4928,7 +4953,6 @@
 	)
 	(label "PUL-Y"
 		(at 161.29 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4937,9 +4961,18 @@
 		)
 		(uuid "82156c51-f691-405b-ac9b-729a66e95404")
 	)
+	(label "-5V"
+		(at 265.43 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f863d3b-fbd8-4c09-a9b9-581a10d6239f")
+	)
 	(label "PUL-Z"
 		(at 161.29 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,7 +4983,6 @@
 	)
 	(label "DIR-Y"
 		(at 161.29 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4961,7 +4993,6 @@
 	)
 	(label "EN-X"
 		(at 161.29 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4970,9 +5001,8 @@
 		)
 		(uuid "bf92df6f-0d98-4c4f-8eed-74815d85edfa")
 	)
-	(label "SEL P {slash} V"
+	(label "SEL P {slash} V - CPU"
 		(at 265.43 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4983,7 +5013,6 @@
 	)
 	(label "GND"
 		(at 161.29 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4992,9 +5021,18 @@
 		)
 		(uuid "d001182f-6d86-488f-a43f-be52d9c2328a")
 	)
+	(label "+12V"
+		(at 265.43 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcde3279-7e73-4159-9fae-4f3c0008dc36")
+	)
 	(label "GND"
 		(at 161.29 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5043,6 @@
 	)
 	(label "EN-Y"
 		(at 161.29 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,6 +5350,28 @@
 		(uuid "dcb2a6ac-d653-42fa-9157-e0f9dddedca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.5725 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVER-ON"
+		(shape output)
+		(at 240.03 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e00b81bd-5989-4ad5-8cf0-ffd7547bd778")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.6753 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

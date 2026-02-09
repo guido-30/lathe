@@ -215,6 +215,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
+      "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -238,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -249,7 +251,7 @@
   },
   "meta": {
     "filename": "PRU-BOARD-ST.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -409,7 +411,7 @@
   "sheets": [
     [
       "83376baa-8092-4242-8be4-15446c519f68",
-      "Principale"
+      "Root"
     ],
     [
       "b377c479-6885-4e06-94e4-eae05cd896c3",
