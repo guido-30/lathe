@@ -423,7 +423,7 @@
     ],
     [
       "9e5955c3-294c-4b63-ae7d-9a3a2d1c56ae",
-      "CPU"
+      "CPU -1"
     ],
     [
       "3aff6d39-0f0b-4908-aed9-67e32121b6ac",
@@ -431,7 +431,11 @@
     ],
     [
       "6ed4000a-4c3b-4805-85a6-06414fd3e40f",
-      "Rimbalzo-Segnali"
+      "CPU-IN-OUT-INTERFACE"
+    ],
+    [
+      "01331872-e742-4a85-9562-a241c25ba52f",
+      "CPU-2"
     ]
   ],
   "text_variables": {}

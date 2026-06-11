@@ -2565,7 +2565,7 @@
 		)
 		(uuid "093f1412-9577-42be-91a5-28ca3f92a6be")
 	)
-	(text "3\n"
+	(text "3°\n"
 		(exclude_from_sim no)
 		(at 150.876 37.846 0)
 		(effects
@@ -2577,7 +2577,7 @@
 		)
 		(uuid "19b97413-134e-490e-85d1-65294ce9367b")
 	)
-	(text "2"
+	(text "2°"
 		(exclude_from_sim no)
 		(at 136.906 37.846 0)
 		(effects
@@ -2619,7 +2619,7 @@
 		)
 		(uuid "71c5ff93-48cd-4b11-b8c2-ed639b69b839")
 	)
-	(text "4\n"
+	(text "4°\n"
 		(exclude_from_sim no)
 		(at 161.544 37.338 0)
 		(effects
@@ -2711,7 +2711,7 @@
 		)
 		(uuid "f26150b3-20f4-4ee3-af76-2c158b6efa4a")
 	)
-	(text "1 da SX"
+	(text "1° da SX"
 		(exclude_from_sim no)
 		(at 183.134 80.01 0)
 		(effects
@@ -4439,10 +4439,10 @@
 			(uuid "15391cbd-eb83-4c3d-8135-93bff6901faa")
 		)
 		(pin "3"
-			(uuid "2a05f81c-7ad8-4257-b260-a45b21b452a8")
+			(uuid "2a05f81c-7ad8-4257-b260-a45b21b452a9")
 		)
 		(pin "4"
-			(uuid "327d2230-7f1e-4672-a9ef-ee7e37e5dacc")
+			(uuid "327d2230-7f1e-4672-a9ef-ee7e37e5dacd")
 		)
 		(instances
 			(project "Tornio"

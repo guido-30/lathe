@@ -8,8 +8,370 @@
 		(title "Quadro elettrico")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 72.39 83.82)
+		(end 76.2 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56b792dd-99a4-4e68-8c11-b0c7261c9d13)
+	)
+	(rectangle
+		(start 49.53 74.93)
+		(end 140.97 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69fe122c-090a-489a-84b4-f065c4c7b7dc)
+	)
+	(rectangle
+		(start 86.36 110.49)
+		(end 95.25 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71f94b7f-4b44-4f7f-b042-de48a8fab5f5)
+	)
+	(rectangle
+		(start 57.15 110.49)
+		(end 66.04 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7998468e-742d-444d-b68f-10f0d5ce0b7b)
+	)
+	(rectangle
+		(start 114.3 110.49)
+		(end 132.08 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99019c6f-f4bf-4591-8867-6e0b80d8facc)
+	)
+	(rectangle
+		(start 185.42 80.01)
+		(end 261.62 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a2e44f0e-861c-40e5-abe4-bdf8f0b51560)
+	)
+	(rectangle
+		(start 72.39 110.49)
+		(end 81.28 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5ba8138-ebbd-4726-86e5-48efafc4f400)
+	)
+	(rectangle
+		(start 111.76 83.82)
+		(end 127 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c393fa99-a08a-404f-99f0-0c1dae2951d9)
+	)
+	(rectangle
+		(start 53.34 153.67)
+		(end 111.76 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7001148-cb7c-4c6e-bd9b-f684836b6929)
+	)
+	(rectangle
+		(start 55.88 83.82)
+		(end 64.77 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f88873a3-b066-42c3-820c-90f97cbbf788)
+	)
+	(text "SPINDLE"
+		(exclude_from_sim no)
+		(at 122.682 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "206ea0ee-8149-4acd-a430-933eb8a29fdb")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 75.692 34.29 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "277d1e54-301b-4b62-9d34-86abfdc32d9b")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 111.506 34.29 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "357591cb-d92e-4d05-8e35-a89cdbafc65b")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 61.214 121.666 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3ed6c5ba-4fec-4825-8525-7d5a7248c8dd")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 207.01 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4b6b0546-0746-4dc1-a2f0-4a51842182ff")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 60.198 91.948 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "57b7e7eb-a434-465d-9462-ff3165917313")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 118.872 93.218 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "57d56203-0391-4f9e-8f12-1fb61d50e8fe")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 74.422 91.694 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5c46742c-afd8-4aaf-952d-2301dea5bd19")
+	)
+	(text "COMMAND PANEL"
+		(exclude_from_sim no)
+		(at 219.71 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84b6cfbb-895d-400a-8b6a-76cf32f8169b")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 122.428 122.428 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9522fcac-5929-4647-8bab-2f9082a92d99")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 90.424 121.92 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "98e7dc4b-aadd-4414-a7f7-129e962f9eb9")
+	)
+	(text "ASSE Y"
+		(exclude_from_sim no)
+		(at 76.2 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9993471c-9e84-4bcb-bd80-70d3001617b3")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 76.454 121.92 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a43b7291-4754-4247-b224-414fe246486b")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 252.73 34.544 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b14f7563-1899-43c5-9fd3-35c2285bfa54")
+	)
+	(text "ASSE X"
+		(exclude_from_sim no)
+		(at 61.468 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5a8bb63-8489-4867-bc84-49772d50ae26")
+	)
+	(text "ASSE Z"
+		(exclude_from_sim no)
+		(at 90.678 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6cb6f16-551b-4f85-9f1a-718c500f480a")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 153.162 34.798 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d21f26d2-1cf7-49fd-bc88-93af75310f9e")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 198.12 34.29 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "dc95301d-0c88-4f60-b47f-c9e3f66445dc")
+	)
+	(text "MORSETTIERA"
+		(exclude_from_sim no)
+		(at 80.772 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfa02eea-9c0d-4af2-85f4-5c80de0a30d5")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 37.592 34.798 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "eab93489-c9fc-4429-b804-1a4630c4a93e")
+	)
 	(sheet
-		(at 133.35 25.4)
+		(at 134.62 25.4)
+		(size 39.37 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01331872-e742-4a85-9562-a241c25ba52f")
+		(property "Sheetname" "CPU-2"
+			(at 134.62 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu-2_sch.kicad_sch"
+			(at 134.62 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tornio"
+				(path "/d482d245-9bde-482f-a0c9-8f57ac89377e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 25.4)
 		(size 35.56 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +387,7 @@
 		)
 		(uuid "3aff6d39-0f0b-4908-aed9-67e32121b6ac")
 		(property "Sheetname" "panel command"
-			(at 133.35 24.6884 0)
+			(at 182.88 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +396,7 @@
 			)
 		)
 		(property "Sheetfile" "panel.sch.kicad_sch"
-			(at 133.35 45.0346 0)
+			(at 182.88 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +413,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 25.4)
+		(at 233.68 25.4)
 		(size 38.1 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66,8 +428,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6ed4000a-4c3b-4805-85a6-06414fd3e40f")
-		(property "Sheetname" "Rimbalzo-Segnali"
-			(at 184.15 24.6884 0)
+		(property "Sheetname" "CPU-IN-OUT-INTERFACE"
+			(at 233.68 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +438,7 @@
 			)
 		)
 		(property "Sheetfile" "Rimbalzo-Segnali.kicad_sch"
-			(at 184.15 43.7646 0)
+			(at 233.68 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +512,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9e5955c3-294c-4b63-ae7d-9a3a2d1c56ae")
-		(property "Sheetname" "CPU"
+		(property "Sheetname" "CPU -1"
 			(at 97.79 24.6884 0)
 			(effects
 				(font
