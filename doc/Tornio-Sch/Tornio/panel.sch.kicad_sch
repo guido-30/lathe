@@ -2577,6 +2577,16 @@
 		)
 		(uuid "19b97413-134e-490e-85d1-65294ce9367b")
 	)
+	(text "12 - ARANCIO"
+		(exclude_from_sim no)
+		(at 20.066 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e4e3dca-c150-4667-88ef-c033e60d4597")
+	)
 	(text "2°"
 		(exclude_from_sim no)
 		(at 136.906 37.846 0)
@@ -2591,13 +2601,23 @@
 	)
 	(text "(BIANCO) ON/OFF"
 		(exclude_from_sim no)
-		(at 30.988 62.992 0)
+		(at -26.416 62.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "31645003-e4ce-44ae-83e8-afd5c5e0a23a")
+	)
+	(text "5 - VIOVA CHIARO"
+		(exclude_from_sim no)
+		(at 23.114 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d154655-0fb9-4354-9e69-1595a1c38f0e")
 	)
 	(text "Black (signal)\n"
 		(exclude_from_sim no)
@@ -2611,7 +2631,7 @@
 	)
 	(text "DIR"
 		(exclude_from_sim no)
-		(at 29.464 72.898 0)
+		(at -27.94 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2631,9 +2651,39 @@
 		)
 		(uuid "77392bb9-17eb-4dbe-b5fa-43f17b8c4772")
 	)
+	(text "14 - ROSSO"
+		(exclude_from_sim no)
+		(at 19.304 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85241503-b61f-441c-83da-1129504c885d")
+	)
+	(text "1 - NERO"
+		(exclude_from_sim no)
+		(at 19.304 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8923113c-f8fd-4340-9e3e-149dcad51df5")
+	)
+	(text "15 - BIANCO DEL VERDE"
+		(exclude_from_sim no)
+		(at 25.146 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d823de9-ef35-485b-b972-7ca0aab1d9b6")
+	)
 	(text "(ARANCIO) ANA SPEED (0-10V)\n"
 		(exclude_from_sim no)
-		(at 37.338 58.166 0)
+		(at -20.066 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,9 +2701,39 @@
 		)
 		(uuid "9548929e-ee6f-4b61-94f2-89aa8a8cee9c")
 	)
+	(text "9 - GIALLO SCURO"
+		(exclude_from_sim no)
+		(at 23.368 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4249bc2-833a-4059-bded-7ebc5c24d31d")
+	)
+	(text "13 - VERDE"
+		(exclude_from_sim no)
+		(at 19.05 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae6375b1-5178-4bd5-9f0b-f5ab13046a47")
+	)
+	(text "11 - BIANCO DEL GIALLO SCURO"
+		(exclude_from_sim no)
+		(at 28.956 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b089a702-7c34-460a-82f5-ef5aaa876525")
+	)
 	(text "PULSE"
 		(exclude_from_sim no)
-		(at 30.734 71.374 0)
+		(at -26.67 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2663,13 +2743,23 @@
 	)
 	(text "(VERDE) ANA/PULSE"
 		(exclude_from_sim no)
-		(at 32.766 60.452 0)
+		(at -24.638 60.452 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "b9c1e4b0-9feb-4baf-8924-e621a4a480c4")
+	)
+	(text "7 - BIANCO DEL VIOLA"
+		(exclude_from_sim no)
+		(at 25.146 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4e8180f-c96d-47fa-9e74-ecefcd604273")
 	)
 	(text "sensor hall D.12"
 		(exclude_from_sim no)
@@ -2681,9 +2771,39 @@
 		)
 		(uuid "c5415737-b479-49e8-ac8b-222e80de82ad")
 	)
+	(text "4 - BIANCO"
+		(exclude_from_sim no)
+		(at 20.066 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca03dae1-18df-4a98-b188-c95418761b6a")
+	)
+	(text "3 - "
+		(exclude_from_sim no)
+		(at 16.764 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8fef72f-faff-4399-82d0-6419a7bf3e5c")
+	)
+	(text "2 - BIANCO DA SOLO "
+		(exclude_from_sim no)
+		(at 25.4 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd36209f-c9f6-407d-802a-3398ac5be7bf")
+	)
 	(text "-5"
 		(exclude_from_sim no)
-		(at 46.99 75.946 0)
+		(at -10.414 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2691,9 +2811,39 @@
 		)
 		(uuid "dda93c82-12a5-4a44-9ee9-be973eb32b9d")
 	)
+	(text "6 - MARRONE CHIARO"
+		(exclude_from_sim no)
+		(at 24.892 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df69cafe-0a5d-4c3c-86ce-ba5f2ba66b51")
+	)
+	(text "8 - BIANCO DEL MARRONE CHIARO"
+		(exclude_from_sim no)
+		(at 30.988 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e966cab3-4368-475e-939a-40c3cbe3e564")
+	)
+	(text "10 - AZZURRO"
+		(exclude_from_sim no)
+		(at 20.32 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecdf534a-14a3-4c93-bcb4-bf153f24c5ea")
+	)
 	(text "+12Vcc"
 		(exclude_from_sim no)
-		(at 47.498 73.66 0)
+		(at -9.906 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
