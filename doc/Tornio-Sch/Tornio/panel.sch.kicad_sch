@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "80df6c80-cb2f-4ce8-b830-8dbd608d6f4c")
 	(paper "A4")
+	(title_block
+		(date "2026-07-28")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -3001,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 68.58) (xy 68.58 46.99)
+			(xy 66.04 68.58) (xy 66.04 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 76.2 63.5)
+			(xy 72.39 55.88) (xy 72.39 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3411,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 68.58 68.58)
+			(xy 99.06 68.58) (xy 66.04 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 46.99) (xy 137.16 46.99)
+			(xy 66.04 46.99) (xy 137.16 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3791,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 99.06 63.5)
+			(xy 72.39 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4093,7 +4097,7 @@
 			)
 		)
 	)
-	(global_label "K verde"
+	(global_label "__SPINDLE-ON-LED"
 		(shape input)
 		(at 97.79 58.42 180)
 		(fields_autoplaced yes)
@@ -4105,7 +4109,7 @@
 		)
 		(uuid "b5e5d641-364f-40a1-aa36-524f655760da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.4872 58.42 0)
+			(at 75.7548 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4119,7 @@
 			)
 		)
 	)
-	(global_label "K verde"
+	(global_label "_SPINDLE-ON"
 		(shape input)
 		(at 201.93 134.62 180)
 		(fields_autoplaced yes)
@@ -4127,7 +4131,7 @@
 		)
 		(uuid "c44d2fa0-cc75-4c98-9737-3938b0d78def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6272 134.62 0)
+			(at 185.8819 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5431,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 76.2 59.69 0)
+		(at 72.39 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5435,7 +5439,7 @@
 		(dnp no)
 		(uuid "c401a0e2-d653-4d45-80a8-8bc9a1cbd396")
 		(property "Reference" "#PWR010"
-			(at 76.2 63.5 0)
+			(at 72.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5448,7 @@
 			)
 		)
 		(property "Value" "+V12"
-			(at 76.2 55.88 0)
+			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 59.69 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 59.69 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 76.2 59.69 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "2a0a3247-0798-43ed-b890-af732611b942")
 	(paper "A4")
+	(title_block
+		(date "2026-07-28")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
@@ -4705,6 +4709,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "D_9-out-ex-loadcell -> SERVO-ON_5"
+		(exclude_from_sim no)
+		(at 252.222 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04d3a843-bf53-41da-ba29-92c8604132fe")
+	)
 	(text "GND pin 35 - 47"
 		(exclude_from_sim no)
 		(at 137.414 136.144 0)
@@ -4727,7 +4741,7 @@
 	)
 	(text "FC_1 -> asse X"
 		(exclude_from_sim no)
-		(at 220.98 132.842 0)
+		(at 240.538 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4735,9 +4749,19 @@
 		)
 		(uuid "24e820f9-5956-4d6f-b321-1105bf171d10")
 	)
-	(text "D_9-out-ex-loadcell -> SERVO-ON_5"
+	(text "D_12-out-ex-uart -> D12-OUT"
 		(exclude_from_sim no)
-		(at 232.156 124.46 0)
+		(at 249.174 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0abbbdf-2d6c-4f9d-b81d-86489c5d715f")
+	)
+	(text "D_10-out-ex-loadcell -> COOL_5"
+		(exclude_from_sim no)
+		(at 250.19 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4757,7 +4781,7 @@
 	)
 	(text "D11_P-V-SpindleCPU"
 		(exclude_from_sim no)
-		(at 223.266 128.524 0)
+		(at 243.586 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4924,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "064a2f1f-31e2-45a4-a435-91e424ed3d01")
+	)
+	(wire
+		(pts
+			(xy 256.54 41.91) (xy 254 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068ae472-31ab-4ad4-87e0-fef0cecc5c6e")
 	)
 	(wire
 		(pts
@@ -5124,6 +5158,16 @@
 			(type default)
 		)
 		(uuid "25a26712-da91-45e7-8d50-1301ffa7bc0e")
+	)
+	(wire
+		(pts
+			(xy 260.35 82.55) (xy 255.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2808c8ae-be64-4f2b-87f0-85fa3fd4eef1")
 	)
 	(wire
 		(pts
@@ -6437,6 +6481,28 @@
 			)
 		)
 	)
+	(global_label "D11-P-V-OUT_5"
+		(shape output)
+		(at 260.35 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0597b8aa-28a8-49ac-abd1-65d675a0e357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.9057 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_MISO"
 		(shape input)
 		(at 29.21 48.26 180)
@@ -6635,28 +6701,6 @@
 			)
 		)
 	)
-	(global_label "PWM SPINDLE"
-		(shape input)
-		(at 234.95 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2607be08-0e58-47b9-a44a-d39c3e4af6a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9625 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI2_MOSI"
 		(shape input)
 		(at 129.54 127 180)
@@ -6701,7 +6745,7 @@
 			)
 		)
 	)
-	(global_label "DIRY"
+	(global_label "DIRZ"
 		(shape input)
 		(at 166.37 76.2 0)
 		(fields_autoplaced yes)
@@ -6713,7 +6757,7 @@
 		)
 		(uuid "29e97fbc-8d11-434b-992c-13233beda1fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.5886 76.2 0)
+			(at 173.7095 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,24 +7097,46 @@
 			)
 		)
 	)
-	(global_label "PWM SPINDLE_5"
-		(shape output)
-		(at 260.35 92.71 0)
+	(global_label "D_12-out-ex-uart"
+		(shape input)
+		(at 234.95 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "67fdc860-a895-439b-984f-49cec648dc42")
+		(uuid "66a218ad-fa42-4776-9825-ba25c4889cba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5146 92.71 0)
+			(at 213.6407 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D11_P-V-SpindleCPU"
+		(shape input)
+		(at 234.95 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f11b788-d3b6-42a1-9dbc-23a3f4c579eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9192 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7137,6 +7203,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D10-OUT-COOL_5"
+		(shape output)
+		(at 256.54 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bb12b35-bcfa-4131-ad7f-4212c202f549")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.1238 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7317,6 +7405,28 @@
 			)
 		)
 	)
+	(global_label "D_10-out-ex-loadcell"
+		(shape input)
+		(at 233.68 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e09744b-5931-4d66-977c-6e7f998fc83d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.5608 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM SPINDLE"
 		(shape output)
 		(at 166.37 81.28 0)
@@ -7335,6 +7445,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_9-out-ex-loadcell"
+		(shape input)
+		(at 234.95 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "964c9cf9-f538-4809-8427-1464bee99a6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.0403 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7374,28 +7506,6 @@
 		(uuid "9a3c7df8-d2cc-4a2e-95f8-207be750ba03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.7167 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D_9-out-ex-loadcell"
-		(shape input)
-		(at 234.95 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ab35be1-09ac-404d-a95a-7522b8fcbfc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.0403 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,6 +7911,28 @@
 			)
 		)
 	)
+	(global_label "D12-OUT_5"
+		(shape output)
+		(at 260.35 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3286f63-aa07-4196-829d-6b4c539c05d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.4023 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIRA"
 		(shape input)
 		(at 129.54 101.6 180)
@@ -7889,6 +8021,28 @@
 			)
 		)
 	)
+	(global_label "PWM SPINDLE_5"
+		(shape output)
+		(at 262.89 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e1a785-67fa-48a6-83b6-57072019c379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.0546 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENC_CLK"
 		(shape input)
 		(at 130.81 83.82 180)
@@ -7933,9 +8087,9 @@
 			)
 		)
 	)
-	(global_label "SERVO-ON_5"
+	(global_label "D9-SERVO-ON_5"
 		(shape output)
-		(at 260.35 90.17 0)
+		(at 260.35 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7943,9 +8097,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d97afd84-94be-4e94-84f8-b756cd257397")
+		(uuid "d98991df-ef3e-44ef-a996-f4bd275952fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.7933 90.17 0)
+			(at 279.8452 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,6 +8149,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM SPINDLE"
+		(shape input)
+		(at 231.14 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfdba299-ff9b-403e-999d-4362a6a92d15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.1525 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8087,7 +8263,7 @@
 			)
 		)
 	)
-	(global_label "DIRZ"
+	(global_label "DIRY"
 		(shape input)
 		(at 166.37 73.66 0)
 		(fields_autoplaced yes)
@@ -8099,7 +8275,7 @@
 		)
 		(uuid "fcb2ddbe-60a6-4eb3-ab33-146ea1b30acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7095 73.66 0)
+			(at 173.5886 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

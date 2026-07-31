@@ -19,4 +19,5 @@ GRUPPO	PARAMETRO VALORE
 8	27         400 mSec rampa decelerazione
 8	45	   2000 max speed
 
- 
+9	10 (ms) SU cont4 ingresso che switch velocity / position
+

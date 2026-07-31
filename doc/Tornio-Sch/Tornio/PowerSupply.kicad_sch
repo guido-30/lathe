@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "baace020-7751-4d49-ad1c-5ace0c838463")
 	(paper "A4")
+	(title_block
+		(date "2026-07-28")
+		(rev "1.0")
+	)
 	(lib_symbols)
 	(rectangle
 		(start 41.91 44.45)
